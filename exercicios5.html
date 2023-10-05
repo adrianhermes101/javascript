@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem Vindo</title>
+</head>
+<body>
+    <h1>Bem Vindo</h1>
+    <label for="nome">Digite seu nome</label>
+    <input type="text" id="nome" placeholder="escreva-se seu nome aqui">
+    <button id="meu botao ( ͡° ͜ʖ ͡°)">Clique aqui</button>
+    <p id="minhaMensagem"></p>
+    <script>
+        document.getElementById("meu botao ( ͡° ͜ʖ ͡°)").addEventListener("click",
+        function () {
+            var nome=document.getElementById("nome").value
+            if(nome){
+             document.getElementById("minhaMensagem").innerHTML="Bom dia,"+nome+" seja bem vindo ao meu site";
+        }
+    } 
+        )
+    </script>
+    
+</body>
+</html>
