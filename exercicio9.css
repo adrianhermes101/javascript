@@ -1,0 +1,56 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; 
+ 
+
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; 
+    
+}
+.imagem{
+    height: 140%;
+    width: 100%;
+    position: fixed;
+    top: -100px;
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+    background-color: #007bff;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+#meuBozo {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index: 40;
+}
+
+#meuBozo:hover {
+    background-color: #0056b3;
+
+}
+
+#minhaM {
+    text-align: center;
+    margin: 100px;
+    border: solid;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
